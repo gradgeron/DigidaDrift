@@ -19,7 +19,7 @@ MonoBehaviour:
   overrideFixedTimeStep: 1
   fixedTimeStep: 0.02
   maxAngularVelocity: 8
-  maxFPS: 60
+  maxFPS: 120
   useFixedWheelColliders: 1
   lockAndUnlockCursor: 0
   controllerType: 0
@@ -214,17 +214,17 @@ MonoBehaviour:
   highBeamHeadlightsKB: 107
   rightIndicatorKB: 101
   leftIndicatorKB: 113
-  hazardIndicatorKB: 122
+  hazardIndicatorKB: 0
   shiftGearUp: 304
   shiftGearDown: 306
-  NGear: 110
+  NGear: 0
   boostKB: 102
-  slowMotionKB: 103
+  slowMotionKB: 0
   changeCameraKB: 99
-  recordKB: 114
-  playbackKB: 112
+  recordKB: 0
+  playbackKB: 0
   lookBackKB: 98
-  trailerAttachDetach: 116
+  trailerAttachDetach: 0
   Xbox_verticalInput: Xbox_Vertical
   Xbox_horizontalInput: Xbox_Horizontal
   Xbox_triggerLeftInput: Xbox_TriggerLeft
