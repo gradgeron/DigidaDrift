@@ -124,14 +124,14 @@ MonoBehaviour:
     angularDrag: 0.5
     angularDragHelperMinimum: 0.1
     angularDragHelperMaximum: 0.25
-    forwardExtremumSlip: 0.4
+    forwardExtremumSlip: 0.6
     forwardExtremumValue: 1
-    forwardAsymptoteSlip: 0.8
+    forwardAsymptoteSlip: 1
     forwardAsymptoteValue: 1
-    sidewaysExtremumSlip: 0.4
+    sidewaysExtremumSlip: 0.6
     sidewaysExtremumValue: 1
-    sidewaysAsymptoteSlip: 0.5
-    sidewaysAsymptoteValue: 0.5
+    sidewaysAsymptoteSlip: 1
+    sidewaysAsymptoteValue: 1
   - behaviorName: Semi Arcade
     steeringHelper: 1
     tractionHelper: 1

@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LB Combined Mesh
+  - LB Rain Particles
+  - LB Hail Particles
+  - LB Snow Particles
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -30,7 +35,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - LB Celestials
   - 
   - 
   - 
