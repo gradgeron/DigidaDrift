@@ -108,7 +108,9 @@ public class RCC_CarControllerV3 : RCC_Core {
 	public float speed = 0f;													// Vehicle speed.
 	public float maxspeed = 240f;											// Maximum speed.
 	private float resetTime = 0f;											// Used for resetting the vehicle if upside down.
-	private float orgSteerAngle = 0f;										// Original steer angle.
+	private float orgSteerAngle = 0f;
+	private float driftMultiplier = 1f;
+	// Original steer angle.
 	#endregion
 
 	#region Engine
@@ -947,7 +949,7 @@ public class RCC_CarControllerV3 : RCC_Core {
 	}
 	
 	void Update (){
-
+		
 		Inputs();
 
 		//Reversing Bool.
@@ -976,6 +978,27 @@ public class RCC_CarControllerV3 : RCC_Core {
 			launched -= Time.deltaTime;
 		
 		launched = Mathf.Clamp01 (launched);
+
+		
+		if (speed > 60 && ((driftingNow && driftAngle >= .2) || (driftingNow && driftAngle <= -.2)))
+        {
+			DriftPoints.driftPointHolder += 0.1f * driftMultiplier;
+			Debug.Log("we're drifting");
+        }
+		if ((speed >= 40 && speed <= 60) && (driftAngle >= .5 || driftAngle <= -.5))
+        {
+			DriftPoints.driftPointHolder += 0.1f;
+			Debug.Log("we're drifting");
+		}
+
+		if (driftAngle >= .35 || driftAngle <= -.35)
+        {
+			driftMultiplier = 2f;
+        } else
+        {
+			driftMultiplier = 1f;
+        }
+
 
 	}
 

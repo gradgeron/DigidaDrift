@@ -66,7 +66,7 @@ public class RCC_SkidmarksManager : MonoBehaviour {
 		skidmarksIndexes[groundIndex] = skidmarks [groundIndex].AddSkidMark (pos, normal, intensity, lastIndex);
 		
 		//Нужна проверка на скорость машины и торможение(вопрос)
-		Debug.Log("11");
+		//Debug.Log("11");
 		
 		return skidmarksIndexes[groundIndex];
 
