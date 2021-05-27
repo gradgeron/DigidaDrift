@@ -76,22 +76,22 @@ MonoBehaviour:
   - 0.5
   - 0.9166667
   - 1
-  OCDQQOODOQ: 
-  OOCOOCOOQO: 
-  OQDCQQOOQO: 
-  ODDCOQQDCQ: 
-  OQOQDDOODQ: 
-  ODODCDCOCO: 
-  OCQDOQQQQC: 
-  OODCCDQODC: 
-  OCDQQOODOQStart: 
-  OOCOOCOOQOStart: 
-  OQDCQQOOQOStart: 
-  ODDCOQQDCQStart: 
-  OQOQDDOODQStart: 
-  ODODCDCOCOStart: 
-  OCQDOQQQQCStart: 
-  OODCCDQODCStart: 
+  OCOQOQOODC: 
+  OODCDOOQCO: 
+  OQCCCODDOQ: 
+  OOCQQDCCDQ: 
+  OQQDQDQCQD: 
+  ODCODDQOQO: 
+  OQOODDCDOO: 
+  OCCQODCODC: 
+  OCOQOQOODCStart: 
+  OODCDOOQCOStart: 
+  OQCCCODDOQStart: 
+  OOCQQDCCDQStart: 
+  OQQDQDQCQDStart: 
+  ODCODDQOQOStart: 
+  OQOODDCDOOStart: 
+  OCCQODCODCStart: 
   frontLeftRoadInts: 
   frontRightRoadInts: 
   backLeftRoadInts: 
@@ -161,143 +161,26 @@ MonoBehaviour:
   planarTiling: 1
   isSceneObject: 0
   connectionHandling: 0
-  roadTypesDynamic:
-  - roadTypeName: Default Road
-    id: 1
-    timestamp: 1520960221.8587415
-    roadWidth: 6
-    faceDistance: 2
-    angleTreshold: 45
-    uvTiling: 1
-    uv4Type: 0
-    type: 0
-    detailDistance: 0
-    planarUVs: 0
-    outerIndent: 0
-    roadShapeDataActive: 0
-    roadShapeData:
-      nodes:
-      - {x: -3, y: 0}
-      - {x: 3, y: 0}
-      hardEdge: 0000
-      priorityNodeIndexLeft: 0
-      priorityNodeIndexRight: 1
-      nodesV3: []
-      lanes: []
-      leftLanes: -1
-      rightLanes: -1
-      symmetrical: 1
-      leftSidewalkOffset: 0
-      rightSidewalkOffset: 0
-      outerLaneMarkingLeftIndex: -1
-      includeOuterlaneLeftInShape: 0
-      includeOuterlaneRightInShape: 0
-      outerLaneMarkingRightIndex: -1
-      outerOuterLaneMarkingLeftIndex: 0
-      outerOuterLaneMarkingRightIndex: 0
-      selectedNode: 0
-      selectedLaneNode: 0
-      isSymmetrical: 0
-      isset: 1
-    minSpeed: 0
-    maxSpeed: 0
-    speedLimit: 0
-    roadShape:
-    - {x: -3, y: 0}
-    - {x: 3, y: 0}
-    roadShapeExt: []
-    roadShapeExt2: []
-    doConnectionTri: 
-    doConnectionTriExt: 
-    roadShapeUVs:
-    - 0
-    - 1
-    roadShapeExtUVs: []
-    roadShapeExtUVs2: []
-    roadShapeUVs2:
-    - 0
-    - 1
-    preserveUVs: 0
-    hardEdge: 
-    roadShapeVecsString: 
-    defaultSidewalk: 0
-    sidewalks: 0
-    sidewalkHeight: 0.2
-    sidewalkWidth: 2
-    roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
-    roadMaterials: []
-    roadPhysicsMaterial: {fileID: 0}
-    roadPhysicsMaterials: []
-    connectionMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7,
-      type: 2}
-    isSideObject: 0
-    isCustomRoad: 0
-    subSegments: 1
-    soData: []
-    soDataExt: []
-    soDataLog: []
-    layer: 0
-    isStatic: 0
-    tag: 
-    splatMapActive: 0
-    splatIndex: 0
-    expandLevel: 0
-    smoothLevel: 0
-    splatOpacity: 0
-    followTerrainContours: 0
-    terrainContoursOffset: 0
-    terrainDeformation: 1
-    defaultIndent: 0
-    defaultSurrounding: 0
-    castShadow: 0
-    randomnessFlag: 0
-    randomYPosition: 0
-    randomMinYPosition: 0
-    randomMaxYPosition: 0
-    minRandomYPositionDistance: 0
-    maxRandomYPositionDistance: 0
-    randomMinRotation: 0
-    randomMaxRotation: 0
-    minRandomRotationDistance: 0
-    maxRandomRotationDistance: 0
-    vegetationStudioMaskLineActive: 0
-    vegetationStudioGrassPerimeter: 0
-    vegetationStudioPlantPerimeter: 0
-    vegetationStudioTreePerimeter: 0
-    vegetationStudioObjectPerimeter: 0
-    vegetationStudioLargeObjectPerimeter: 0
-    vegetationStudioBiomeMaskActive: 0
-    vegetationStudioBiomeMaskDistance: 0
-    vegetationStudioBiomeMaskBlendDistance: 0
-    vegetationStudioBiomeMaskNoiseScale: 0
-    decalPresets: []
-    decalClassPresets: []
-    defaultRamp: 0
-    extrusionType: 0
-    extrusionDistance: 0
-    fixedDistance: 0
-    connectionAngle: 0
-    connectionRadius: 0
-    isRoadShape: 0
-  frontRoadTypeInt: 1
+  roadTypesDynamic: []
+  frontRoadTypeInt: 0
   frontRoadTypeID: 1
   frontRoadWidth: 6
   frontMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
   frontRoadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
   frontRoadUVTiling: 1
-  backRoadTypeInt: 1
+  backRoadTypeInt: 0
   backRoadTypeID: 1
   backRoadWidth: 6
   backMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
   backRoadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
   backRoadUVTiling: 1
-  leftRoadTypeInt: 1
+  leftRoadTypeInt: 0
   leftRoadTypeID: 1
   leftRoadWidth: 6
   leftMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
   leftRoadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
   leftRoadUVTiling: 1
-  rightRoadTypeInt: 1
+  rightRoadTypeInt: 0
   rightRoadTypeID: 1
   rightRoadWidth: 6
   rightMaterial: {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
@@ -310,7 +193,7 @@ MonoBehaviour:
   cornerPresetName: 
   selectedSidewalkPreset: 0
   sidewalkPresetName: 
-  OCDQCCOQQCCorner: 0
+  ODCQCQOCQDCorner: 0
   leftBottom: {x: -3.2928934, y: 0.5, z: -3.2928932}
   rightBottom: {x: 3.2928934, y: 0.5, z: -3.2928932}
   leftTop: {x: -3.2928934, y: 0.5, z: 3.2928932}
@@ -340,25 +223,45 @@ MonoBehaviour:
     roadShapeVecs:
     - {x: -3, y: 0}
     - {x: 3, y: 0}
-    roadShapeVecsString: -3, 0;3, 0;
-    roadShapeMatchCount: 2
+    roadShapeVecsString: 
+    roadShapeMatchCount: 0
     roadShapeUVY:
     - 0
     - 1
     roadShapeUVY2: []
     hardEdge: 
-    roadShapeMaterialInts: 0000000000000000
-    sidewalkLeftVecs: []
-    sidewalkLeftUVY: []
+    roadShapeMaterialInts: 010000000100000001000000010000000100000000000000000000000100000001000000010000000100000001000000
+    sidewalkLeftVecs:
+    - {x: -4.5, y: 0.25}
+    - {x: -4.25, y: 0.25}
+    - {x: -3.25, y: 0.25}
+    - {x: -3, y: 0.25}
+    - {x: -3, y: 0}
+    sidewalkLeftUVY:
+    - 1
+    - 0.85714287
+    - 0.2857143
+    - 0.14285715
+    - 0
     sidewalkLeftMaterialInts: 
-    sidewalkRightVecs: []
-    sidewalkRightUVY: []
+    sidewalkRightVecs:
+    - {x: 3, y: 0}
+    - {x: 3, y: 0.25}
+    - {x: 3.25, y: 0.25}
+    - {x: 4.25, y: 0.25}
+    - {x: 4.5, y: 0.25}
+    sidewalkRightUVY:
+    - 0
+    - 0.14285715
+    - 0.2857143
+    - 0.85714287
+    - 1
     sidewalkRightMaterialInts: 
     connectionVecs: []
-    connectionVecInts: 0100000015000000
-    fullConnectionVecInts: 0100000015000000
-    sidewalkLeftConnectionVecInts: 
-    sidewalkRightConnectionVecInts: 
+    connectionVecInts: 76000000740000006f0000006a0000006500000001000000150000008b00000090000000950000009a0000009c000000
+    fullConnectionVecInts: 
+    sidewalkLeftConnectionVecInts: 76000000740000006f0000006a00000065000000
+    sidewalkRightConnectionVecInts: 8b00000090000000950000009a0000009c000000
     doConnectionTri: 
     outerVecInts: 
     rotationPriority: 0
@@ -366,11 +269,12 @@ MonoBehaviour:
     connectedRoad: {fileID: 0}
     connectedMarker: -1
     connectedRoadGO: {fileID: 0}
-    includeLeftSidewalk: 0
-    includeRightSidewalk: 0
+    includeLeftSidewalk: 1
+    includeRightSidewalk: 1
     roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
     roadMaterials:
-    - {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     centerPointPercentage: 0.5
     leftIndent: 2
     rightIndent: 1
@@ -380,24 +284,25 @@ MonoBehaviour:
     leftSurroundingV3: {x: -10.252136, y: 0, z: -10.252129}
     rightIndentV3: {x: 7.4296875, y: -0.02, z: -7.4296875}
     rightSurroundingV3: {x: 10.252136, y: 0, z: -10.252129}
-    leftRoadpoint: {x: -3, y: 0, z: -5.5}
-    rightRoadpoint: {x: 3, y: 0, z: -5.5}
+    leftRoadpoint: {x: 0, y: 0, z: 0}
+    rightRoadpoint: {x: 0, y: 0, z: 0}
     leftCornerInt: -1
     rightCornerInt: -1
     leftIndentInt: 0
     rightIndentInt: 0
     leftInt: 0
-    rightInt: 1
+    rightInt: 0
     leftIntFull: 0
-    rightIntFull: 1
+    rightIntFull: 0
     alignmentHandleVec: {x: 0, y: 0, z: -2.75}
     additionalIndentDistance: 1.948485
     connectionAngle: 0
     alignmentHandleVecRotationGizmo: {x: 0, y: 0, z: 0}
-    roadType: 1
+    inwards: 0
+    roadType: 0
     roadTypeTimestamp: 0
   crossingOuterElement: 0
-  crossingName: Default X Crossing
+  crossingName: dynamic X crossing
   guiChanged: 1
   includeSidewalkChangeFlag: 0
   debugVecs: []
@@ -522,6 +427,8 @@ MonoBehaviour:
       connectionAngle: 0
       connectionRadius: 0
       isRoadShape: 0
+      controlType: 0
+      vertexColor: {r: 0, g: 0, b: 0, a: 0}
     roadTypeID: 0
     roadTypeAI:
       roadTypeName: 
@@ -632,6 +539,8 @@ MonoBehaviour:
       connectionAngle: 0
       connectionRadius: 0
       isRoadShape: 0
+      controlType: 0
+      vertexColor: {r: 0, g: 0, b: 0, a: 0}
     roadTypeAIid: 0
     aIInit: 0
     roadTypeIndex: 0
@@ -706,6 +615,7 @@ MonoBehaviour:
       outerSideCurbUVControl: 0
       material: {fileID: 0}
       hardEdges: 0
+      hardEdgePadding: 0
       shape: []
       sidewalkUVs: []
       curbUVs: []
@@ -716,7 +626,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      tileSize: 1
+      tileSize: 0
       tiling: 1
       uvRatio: 1
       minEnd: 1
@@ -725,6 +635,7 @@ MonoBehaviour:
       cornerRadius: 1
       cornerSegments: 5
       innerSegmentDistance: 0.5
+      pavementIndex: 2
     rightSidewalk:
       name: 
       id: 0
@@ -740,6 +651,7 @@ MonoBehaviour:
       outerSideCurbUVControl: 0
       material: {fileID: 0}
       hardEdges: 0
+      hardEdgePadding: 0
       shape: []
       sidewalkUVs: []
       curbUVs: []
@@ -750,7 +662,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      tileSize: 1
+      tileSize: 0
       tiling: 1
       uvRatio: 1
       minEnd: 1
@@ -759,8 +671,17 @@ MonoBehaviour:
       cornerRadius: 1
       cornerSegments: 5
       innerSegmentDistance: 0.5
+      pavementIndex: 2
     leftSidewalkActive: 0
     rightSidewalkActive: 0
+    leftSidewalkid: 0
+    rightSidewalkid: 0
+    leftSidewalkIndex: 0
+    rightSidewalkIndex: 0
+    leftSidewalkGO: {fileID: 0}
+    rightSidewalkGO: {fileID: 0}
+    leftSidewalkTris: 
+    rightSidewalkTris: 
     leftIndentvecs: []
     rightIndentvecs: []
     leftSurroundingvecs: []
@@ -795,6 +716,8 @@ MonoBehaviour:
         laneIndex: 0
       laneIndex: 0
       direction: 0
+    forward: {x: 0, y: 0, z: 0}
+    sideways: {x: 0, y: 0, z: 0}
     hasChanged: 0
   secondPriorityConnection:
     name: 
@@ -910,6 +833,8 @@ MonoBehaviour:
       connectionAngle: 0
       connectionRadius: 0
       isRoadShape: 0
+      controlType: 0
+      vertexColor: {r: 0, g: 0, b: 0, a: 0}
     roadTypeID: 0
     roadTypeAI:
       roadTypeName: 
@@ -1020,6 +945,8 @@ MonoBehaviour:
       connectionAngle: 0
       connectionRadius: 0
       isRoadShape: 0
+      controlType: 0
+      vertexColor: {r: 0, g: 0, b: 0, a: 0}
     roadTypeAIid: 0
     aIInit: 0
     roadTypeIndex: 0
@@ -1094,6 +1021,7 @@ MonoBehaviour:
       outerSideCurbUVControl: 0
       material: {fileID: 0}
       hardEdges: 0
+      hardEdgePadding: 0
       shape: []
       sidewalkUVs: []
       curbUVs: []
@@ -1104,7 +1032,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      tileSize: 1
+      tileSize: 0
       tiling: 1
       uvRatio: 1
       minEnd: 1
@@ -1113,6 +1041,7 @@ MonoBehaviour:
       cornerRadius: 1
       cornerSegments: 5
       innerSegmentDistance: 0.5
+      pavementIndex: 2
     rightSidewalk:
       name: 
       id: 0
@@ -1128,6 +1057,7 @@ MonoBehaviour:
       outerSideCurbUVControl: 0
       material: {fileID: 0}
       hardEdges: 0
+      hardEdgePadding: 0
       shape: []
       sidewalkUVs: []
       curbUVs: []
@@ -1138,7 +1068,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      tileSize: 1
+      tileSize: 0
       tiling: 1
       uvRatio: 1
       minEnd: 1
@@ -1147,8 +1077,17 @@ MonoBehaviour:
       cornerRadius: 1
       cornerSegments: 5
       innerSegmentDistance: 0.5
+      pavementIndex: 2
     leftSidewalkActive: 0
     rightSidewalkActive: 0
+    leftSidewalkid: 0
+    rightSidewalkid: 0
+    leftSidewalkIndex: 0
+    rightSidewalkIndex: 0
+    leftSidewalkGO: {fileID: 0}
+    rightSidewalkGO: {fileID: 0}
+    leftSidewalkTris: 
+    rightSidewalkTris: 
     leftIndentvecs: []
     rightIndentvecs: []
     leftSurroundingvecs: []
@@ -1183,6 +1122,8 @@ MonoBehaviour:
         laneIndex: 0
       laneIndex: 0
       direction: 0
+    forward: {x: 0, y: 0, z: 0}
+    sideways: {x: 0, y: 0, z: 0}
     hasChanged: 0
   adjustMainRadiusFlag: 0
   disableAdjustMainRadiusFlag: 0
@@ -1225,25 +1166,45 @@ MonoBehaviour:
     roadShapeVecs:
     - {x: -3, y: 0}
     - {x: 3, y: 0}
-    roadShapeVecsString: -3, 0;3, 0;
-    roadShapeMatchCount: 2
+    roadShapeVecsString: 
+    roadShapeMatchCount: 0
     roadShapeUVY:
     - 0
     - 1
     roadShapeUVY2: []
     hardEdge: 
-    roadShapeMaterialInts: 0000000000000000
-    sidewalkLeftVecs: []
-    sidewalkLeftUVY: []
+    roadShapeMaterialInts: 010000000100000001000000010000000100000000000000000000000100000001000000010000000100000001000000
+    sidewalkLeftVecs:
+    - {x: -4.5, y: 0.25}
+    - {x: -4.25, y: 0.25}
+    - {x: -3.25, y: 0.25}
+    - {x: -3, y: 0.25}
+    - {x: -3, y: 0}
+    sidewalkLeftUVY:
+    - 1
+    - 0.85714287
+    - 0.2857143
+    - 0.14285715
+    - 0
     sidewalkLeftMaterialInts: 
-    sidewalkRightVecs: []
-    sidewalkRightUVY: []
+    sidewalkRightVecs:
+    - {x: 3, y: 0}
+    - {x: 3, y: 0.25}
+    - {x: 3.25, y: 0.25}
+    - {x: 4.25, y: 0.25}
+    - {x: 4.5, y: 0.25}
+    sidewalkRightUVY:
+    - 0
+    - 0.14285715
+    - 0.2857143
+    - 0.85714287
+    - 1
     sidewalkRightMaterialInts: 
     connectionVecs: []
-    connectionVecInts: 0100000015000000
-    fullConnectionVecInts: 0100000015000000
-    sidewalkLeftConnectionVecInts: 
-    sidewalkRightConnectionVecInts: 
+    connectionVecInts: 76000000740000006f0000006a0000006500000001000000150000008b00000090000000950000009a0000009c000000
+    fullConnectionVecInts: 
+    sidewalkLeftConnectionVecInts: 76000000740000006f0000006a00000065000000
+    sidewalkRightConnectionVecInts: 8b00000090000000950000009a0000009c000000
     doConnectionTri: 
     outerVecInts: 
     rotationPriority: 0
@@ -1251,11 +1212,12 @@ MonoBehaviour:
     connectedRoad: {fileID: 0}
     connectedMarker: -1
     connectedRoadGO: {fileID: 0}
-    includeLeftSidewalk: 0
-    includeRightSidewalk: 0
+    includeLeftSidewalk: 1
+    includeRightSidewalk: 1
     roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
     roadMaterials:
-    - {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     centerPointPercentage: 0.5
     leftIndent: 2
     rightIndent: 1
@@ -1265,20 +1227,21 @@ MonoBehaviour:
     leftSurroundingV3: {x: -10.252136, y: 0, z: -10.252129}
     rightIndentV3: {x: 7.4296875, y: -0.02, z: -7.4296875}
     rightSurroundingV3: {x: 10.252136, y: 0, z: -10.252129}
-    leftRoadpoint: {x: -3, y: 0, z: -5.5}
-    rightRoadpoint: {x: 3, y: 0, z: -5.5}
+    leftRoadpoint: {x: 0, y: 0, z: 0}
+    rightRoadpoint: {x: 0, y: 0, z: 0}
     leftCornerInt: -1
     rightCornerInt: -1
     leftIndentInt: 0
     rightIndentInt: 0
     leftInt: 0
-    rightInt: 1
+    rightInt: 0
     leftIntFull: 0
-    rightIntFull: 1
+    rightIntFull: 0
     alignmentHandleVec: {x: 0, y: 0, z: -2.75}
     additionalIndentDistance: 1.948485
     connectionAngle: 0
     alignmentHandleVecRotationGizmo: {x: 0, y: 0, z: 0}
+    inwards: 0
     roadType: 1
     roadTypeTimestamp: 0
   - centerPoint: {x: 0, y: 0, z: 5.5}
@@ -1299,25 +1262,45 @@ MonoBehaviour:
     roadShapeVecs:
     - {x: -3, y: 0}
     - {x: 3, y: 0}
-    roadShapeVecsString: -3, 0;3, 0;
-    roadShapeMatchCount: 2
+    roadShapeVecsString: 
+    roadShapeMatchCount: 0
     roadShapeUVY:
     - 1
     - 0
     roadShapeUVY2: []
     hardEdge: 
-    roadShapeMaterialInts: 0000000000000000
-    sidewalkLeftVecs: []
-    sidewalkLeftUVY: []
+    roadShapeMaterialInts: 010000000100000001000000010000000100000000000000000000000100000001000000010000000100000001000000
+    sidewalkLeftVecs:
+    - {x: -4.5, y: 0.25}
+    - {x: -4.25, y: 0.25}
+    - {x: -3.25, y: 0.25}
+    - {x: -3, y: 0.25}
+    - {x: -3, y: 0}
+    sidewalkLeftUVY:
+    - 1
+    - 0.85714287
+    - 0.2857143
+    - 0.14285715
+    - 0
     sidewalkLeftMaterialInts: 
-    sidewalkRightVecs: []
-    sidewalkRightUVY: []
+    sidewalkRightVecs:
+    - {x: 3, y: 0}
+    - {x: 3, y: 0.25}
+    - {x: 3.25, y: 0.25}
+    - {x: 4.25, y: 0.25}
+    - {x: 4.5, y: 0.25}
+    sidewalkRightUVY:
+    - 0
+    - 0.14285715
+    - 0.2857143
+    - 0.85714287
+    - 1
     sidewalkRightMaterialInts: 
     connectionVecs: []
-    connectionVecInts: 1a0000002e000000
-    fullConnectionVecInts: 1a0000002e000000
-    sidewalkLeftConnectionVecInts: 
-    sidewalkRightConnectionVecInts: 
+    connectionVecInts: c2000000c0000000bb000000b6000000b10000001a0000002e000000d7000000dc000000e1000000e6000000e8000000
+    fullConnectionVecInts: 
+    sidewalkLeftConnectionVecInts: c2000000c0000000bb000000b6000000b1000000
+    sidewalkRightConnectionVecInts: d7000000dc000000e1000000e6000000e8000000
     doConnectionTri: 
     outerVecInts: 
     rotationPriority: 0
@@ -1325,11 +1308,12 @@ MonoBehaviour:
     connectedRoad: {fileID: 0}
     connectedMarker: -1
     connectedRoadGO: {fileID: 0}
-    includeLeftSidewalk: 0
-    includeRightSidewalk: 0
+    includeLeftSidewalk: 1
+    includeRightSidewalk: 1
     roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
     roadMaterials:
-    - {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     centerPointPercentage: 0.5
     leftIndent: 6
     rightIndent: 5
@@ -1339,20 +1323,21 @@ MonoBehaviour:
     leftSurroundingV3: {x: 10.252136, y: 0, z: 10.252129}
     rightIndentV3: {x: -7.4296875, y: -0.02, z: 7.4296875}
     rightSurroundingV3: {x: -10.252136, y: 0, z: 10.252129}
-    leftRoadpoint: {x: 3, y: 0, z: 5.5}
-    rightRoadpoint: {x: -3, y: 0, z: 5.5}
+    leftRoadpoint: {x: 0, y: 0, z: 0}
+    rightRoadpoint: {x: 0, y: 0, z: 0}
     leftCornerInt: -1
     rightCornerInt: -1
     leftIndentInt: 0
     rightIndentInt: 0
     leftInt: 0
-    rightInt: 1
+    rightInt: 0
     leftIntFull: 0
-    rightIntFull: 1
+    rightIntFull: 0
     alignmentHandleVec: {x: 0, y: 0, z: 2.75}
     additionalIndentDistance: 1.948485
     connectionAngle: 0
     alignmentHandleVecRotationGizmo: {x: 0, y: 0, z: 0}
+    inwards: 0
     roadType: 1
     roadTypeTimestamp: 0
   - centerPoint: {x: -5.5, y: 0, z: 0}
@@ -1373,25 +1358,45 @@ MonoBehaviour:
     roadShapeVecs:
     - {x: -3, y: 0}
     - {x: 3, y: 0}
-    roadShapeVecsString: -3, 0;3, 0;
-    roadShapeMatchCount: 2
+    roadShapeVecsString: 
+    roadShapeMatchCount: 0
     roadShapeUVY:
     - 0
     - 1
     roadShapeUVY2: []
     hardEdge: 
-    roadShapeMaterialInts: 0000000000000000
-    sidewalkLeftVecs: []
-    sidewalkLeftUVY: []
+    roadShapeMaterialInts: 010000000100000001000000010000000100000000000000000000000100000001000000010000000100000001000000
+    sidewalkLeftVecs:
+    - {x: -4.5, y: 0.25}
+    - {x: -4.25, y: 0.25}
+    - {x: -3.25, y: 0.25}
+    - {x: -3, y: 0.25}
+    - {x: -3, y: 0}
+    sidewalkLeftUVY:
+    - 1
+    - 0.85714287
+    - 0.2857143
+    - 0.14285715
+    - 0
     sidewalkLeftMaterialInts: 
-    sidewalkRightVecs: []
-    sidewalkRightUVY: []
+    sidewalkRightVecs:
+    - {x: 3, y: 0}
+    - {x: 3, y: 0.25}
+    - {x: 3.25, y: 0.25}
+    - {x: 4.25, y: 0.25}
+    - {x: 4.5, y: 0.25}
+    sidewalkRightUVY:
+    - 0
+    - 0.14285715
+    - 0.2857143
+    - 0.85714287
+    - 1
     sidewalkRightMaterialInts: 
     connectionVecs: []
-    connectionVecInts: 3300000047000000
-    fullConnectionVecInts: 3300000047000000
-    sidewalkLeftConnectionVecInts: 
-    sidewalkRightConnectionVecInts: 
+    connectionVecInts: fb000000f9000000f4000000ef000000ea0000003300000047000000780000007d000000820000008700000089000000
+    fullConnectionVecInts: 
+    sidewalkLeftConnectionVecInts: fb000000f9000000f4000000ef000000ea000000
+    sidewalkRightConnectionVecInts: 780000007d000000820000008700000089000000
     doConnectionTri: 
     outerVecInts: 
     rotationPriority: 0
@@ -1399,11 +1404,12 @@ MonoBehaviour:
     connectedRoad: {fileID: 0}
     connectedMarker: -1
     connectedRoadGO: {fileID: 0}
-    includeLeftSidewalk: 0
-    includeRightSidewalk: 0
+    includeLeftSidewalk: 1
+    includeRightSidewalk: 1
     roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
     roadMaterials:
-    - {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     centerPointPercentage: 0.5
     leftIndent: 4
     rightIndent: 2
@@ -1413,20 +1419,21 @@ MonoBehaviour:
     leftSurroundingV3: {x: -10.252136, y: 0, z: 10.252129}
     rightIndentV3: {x: -7.4296875, y: -0.02, z: -7.4296875}
     rightSurroundingV3: {x: -10.252136, y: 0, z: -10.252129}
-    leftRoadpoint: {x: -5.5, y: 0, z: 3}
-    rightRoadpoint: {x: -5.5, y: 0, z: -3}
+    leftRoadpoint: {x: 0, y: 0, z: 0}
+    rightRoadpoint: {x: 0, y: 0, z: 0}
     leftCornerInt: -1
     rightCornerInt: -1
     leftIndentInt: 0
     rightIndentInt: 0
     leftInt: 0
-    rightInt: 1
+    rightInt: 0
     leftIntFull: 0
-    rightIntFull: 1
+    rightIntFull: 0
     alignmentHandleVec: {x: -2.75, y: 0, z: 0}
     additionalIndentDistance: 1.948485
     connectionAngle: 0
     alignmentHandleVecRotationGizmo: {x: 0, y: 0, z: 0}
+    inwards: 0
     roadType: 1
     roadTypeTimestamp: 0
   - centerPoint: {x: 5.5, y: 0, z: 0}
@@ -1447,25 +1454,45 @@ MonoBehaviour:
     roadShapeVecs:
     - {x: -3, y: 0}
     - {x: 3, y: 0}
-    roadShapeVecsString: -3, 0;3, 0;
-    roadShapeMatchCount: 2
+    roadShapeVecsString: 
+    roadShapeMatchCount: 0
     roadShapeUVY:
     - 1
     - 0
     roadShapeUVY2: []
     hardEdge: 
-    roadShapeMaterialInts: 0000000000000000
-    sidewalkLeftVecs: []
-    sidewalkLeftUVY: []
+    roadShapeMaterialInts: 010000000100000001000000010000000100000000000000000000000100000001000000010000000100000001000000
+    sidewalkLeftVecs:
+    - {x: -4.5, y: 0.25}
+    - {x: -4.25, y: 0.25}
+    - {x: -3.25, y: 0.25}
+    - {x: -3, y: 0.25}
+    - {x: -3, y: 0}
+    sidewalkLeftUVY:
+    - 1
+    - 0.85714287
+    - 0.2857143
+    - 0.14285715
+    - 0
     sidewalkLeftMaterialInts: 
-    sidewalkRightVecs: []
-    sidewalkRightUVY: []
+    sidewalkRightVecs:
+    - {x: 3, y: 0}
+    - {x: 3, y: 0.25}
+    - {x: 3.25, y: 0.25}
+    - {x: 4.25, y: 0.25}
+    - {x: 4.5, y: 0.25}
+    sidewalkRightUVY:
+    - 0
+    - 0.14285715
+    - 0.2857143
+    - 0.85714287
+    - 1
     sidewalkRightMaterialInts: 
     connectionVecs: []
-    connectionVecInts: 4c00000060000000
-    fullConnectionVecInts: 4c00000060000000
-    sidewalkLeftConnectionVecInts: 
-    sidewalkRightConnectionVecInts: 
+    connectionVecInts: af000000ad000000a8000000a30000009e0000004c00000060000000c4000000c9000000ce000000d3000000d5000000
+    fullConnectionVecInts: 
+    sidewalkLeftConnectionVecInts: af000000ad000000a8000000a30000009e000000
+    sidewalkRightConnectionVecInts: c4000000c9000000ce000000d3000000d5000000
     doConnectionTri: 
     outerVecInts: 
     rotationPriority: 0
@@ -1473,11 +1500,12 @@ MonoBehaviour:
     connectedRoad: {fileID: 0}
     connectedMarker: -1
     connectedRoadGO: {fileID: 0}
-    includeLeftSidewalk: 0
-    includeRightSidewalk: 0
+    includeLeftSidewalk: 1
+    includeRightSidewalk: 1
     roadMaterial: {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
     roadMaterials:
-    - {fileID: 2100000, guid: f182e2714eb8a714a99ed091081ce16c, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     centerPointPercentage: 0.5
     leftIndent: 8
     rightIndent: 7
@@ -1487,32 +1515,33 @@ MonoBehaviour:
     leftSurroundingV3: {x: 10.252136, y: 0, z: -10.252129}
     rightIndentV3: {x: 7.4296875, y: -0.02, z: 7.4296875}
     rightSurroundingV3: {x: 10.252136, y: 0, z: 10.252129}
-    leftRoadpoint: {x: 5.5, y: 0, z: -3}
-    rightRoadpoint: {x: 5.5, y: 0, z: 3}
+    leftRoadpoint: {x: 0, y: 0, z: 0}
+    rightRoadpoint: {x: 0, y: 0, z: 0}
     leftCornerInt: -1
     rightCornerInt: -1
     leftIndentInt: 0
     rightIndentInt: 0
     leftInt: 0
-    rightInt: 1
+    rightInt: 0
     leftIntFull: 0
-    rightIntFull: 1
+    rightIntFull: 0
     alignmentHandleVec: {x: 2.75, y: 0, z: 0}
     additionalIndentDistance: 1.948485
     connectionAngle: 0
     alignmentHandleVecRotationGizmo: {x: 0, y: 0, z: 0}
+    inwards: 0
     roadType: 1
     roadTypeTimestamp: 0
   sidewalkControlElements:
   - crossingElementLeftIndex: 3
     crossingElementRightIndex: 0
-    centerHandleV3: {x: 3.2928934, y: 0, z: -3.2928932}
+    centerHandleV3: {x: 4.5, y: 0.25, z: -4.5}
     centerHandleV3_2: {x: 0, y: 0, z: 0}
-    leftHandleV3: {x: 5.5, y: 0, z: -3}
-    rightHandleV3: {x: 3, y: 0, z: -5.5}
-    renderFlag: 0
-    leftConnectionHandle: 0
-    rightConnectionHandle: 0
+    leftHandleV3: {x: 5.5, y: 0.25, z: -4.5}
+    rightHandleV3: {x: 4.5, y: 0.25, z: -5.5}
+    renderFlag: 1
+    leftConnectionHandle: 1
+    rightConnectionHandle: 1
     sidewalkWidth1: 1.5
     sidewalkWidth2: 1.5
     curbHeight: 0.25
@@ -1538,13 +1567,13 @@ MonoBehaviour:
     startAngle: 0
   - crossingElementLeftIndex: 0
     crossingElementRightIndex: 2
-    centerHandleV3: {x: -3.2928934, y: 0, z: -3.2928932}
+    centerHandleV3: {x: -4.5, y: 0.25, z: -4.5}
     centerHandleV3_2: {x: 0, y: 0, z: 0}
-    leftHandleV3: {x: -3, y: 0, z: -5.5}
-    rightHandleV3: {x: -5.5, y: 0, z: -3}
-    renderFlag: 0
-    leftConnectionHandle: 0
-    rightConnectionHandle: 0
+    leftHandleV3: {x: -4.5, y: 0.25, z: -5.5}
+    rightHandleV3: {x: -5.5, y: 0.25, z: -4.5}
+    renderFlag: 1
+    leftConnectionHandle: 1
+    rightConnectionHandle: 1
     sidewalkWidth1: 1.5
     sidewalkWidth2: 1.5
     curbHeight: 0.25
@@ -1570,13 +1599,13 @@ MonoBehaviour:
     startAngle: 0
   - crossingElementLeftIndex: 2
     crossingElementRightIndex: 1
-    centerHandleV3: {x: -3.2928934, y: 0, z: 3.2928932}
+    centerHandleV3: {x: -4.5, y: 0.25, z: 4.5}
     centerHandleV3_2: {x: 0, y: 0, z: 0}
-    leftHandleV3: {x: -5.5, y: 0, z: 3}
-    rightHandleV3: {x: -3, y: 0, z: 5.5}
-    renderFlag: 0
-    leftConnectionHandle: 0
-    rightConnectionHandle: 0
+    leftHandleV3: {x: -5.5, y: 0.25, z: 4.5}
+    rightHandleV3: {x: -4.5, y: 0.25, z: 5.5}
+    renderFlag: 1
+    leftConnectionHandle: 1
+    rightConnectionHandle: 1
     sidewalkWidth1: 1.5
     sidewalkWidth2: 1.5
     curbHeight: 0.25
@@ -1602,13 +1631,13 @@ MonoBehaviour:
     startAngle: 0
   - crossingElementLeftIndex: 1
     crossingElementRightIndex: 3
-    centerHandleV3: {x: 3.2928934, y: 0, z: 3.2928932}
+    centerHandleV3: {x: 4.5, y: 0.25, z: 4.5}
     centerHandleV3_2: {x: 0, y: 0, z: 0}
-    leftHandleV3: {x: 3, y: 0, z: 5.5}
-    rightHandleV3: {x: 5.5, y: 0, z: 3}
-    renderFlag: 0
-    leftConnectionHandle: 0
-    rightConnectionHandle: 0
+    leftHandleV3: {x: 4.5, y: 0.25, z: 5.5}
+    rightHandleV3: {x: 5.5, y: 0.25, z: 4.5}
+    renderFlag: 1
+    leftConnectionHandle: 1
+    rightConnectionHandle: 1
     sidewalkWidth1: 1.5
     sidewalkWidth2: 1.5
     curbHeight: 0.25
@@ -1735,108 +1764,159 @@ MonoBehaviour:
   - {x: 4, y: 0, z: 3}
   - {x: 3.6173167, y: 0, z: 3.0761204}
   - {x: 3.2928934, y: 0, z: 3.2928932}
-  fullMeshVecs:
-  - {x: 0, y: 0, z: 0}
   - {x: -3, y: 0, z: -5.5}
   - {x: -3, y: 0, z: -4.5}
   - {x: -3, y: 0, z: -4}
   - {x: -3.0761204, y: 0, z: -3.6173165}
   - {x: -3.2928934, y: 0, z: -3.2928932}
-  - {x: -2.5, y: 0, z: -5.5}
-  - {x: -2.5, y: 0, z: -4.5}
-  - {x: -2.501849, y: 0, z: -3.9570408}
-  - {x: -2.6141806, y: 0, z: -3.4259746}
-  - {x: -2.93934, y: 0, z: -2.9393399}
-  - {x: 0, y: 0, z: -5.5}
-  - {x: 0, y: 0, z: -4.5}
-  - {x: 0, y: 0, z: -3.9570408}
-  - {x: 0, y: 0, z: -3.4259746}
-  - {x: 0, y: 0, z: -2.9393399}
-  - {x: 2.5, y: 0, z: -5.5}
-  - {x: 2.5, y: 0, z: -4.5}
-  - {x: 2.501849, y: 0, z: -3.9570408}
-  - {x: 2.6141806, y: 0, z: -3.4259746}
-  - {x: 2.93934, y: 0, z: -2.9393399}
-  - {x: 3, y: 0, z: -5.5}
-  - {x: 3, y: 0, z: -4.5}
-  - {x: 3, y: 0, z: -4}
-  - {x: 3.0761204, y: 0, z: -3.6173165}
-  - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 3, y: 0, z: 5.5}
-  - {x: 3, y: 0, z: 4.5}
-  - {x: 3, y: 0, z: 4}
-  - {x: 3.0761204, y: 0, z: 3.6173165}
-  - {x: 3.2928934, y: 0, z: 3.2928932}
-  - {x: 2.5, y: 0, z: 5.5}
-  - {x: 2.5, y: 0, z: 4.5}
-  - {x: 2.501849, y: 0, z: 3.9570408}
-  - {x: 2.6141806, y: 0, z: 3.4259746}
-  - {x: 2.93934, y: 0, z: 2.9393399}
-  - {x: 0, y: 0, z: 5.5}
-  - {x: 0, y: 0, z: 4.5}
-  - {x: 0, y: 0, z: 3.9570408}
-  - {x: 0, y: 0, z: 3.4259746}
-  - {x: 0, y: 0, z: 2.9393399}
-  - {x: -2.5, y: 0, z: 5.5}
-  - {x: -2.5, y: 0, z: 4.5}
-  - {x: -2.501849, y: 0, z: 3.9570408}
-  - {x: -2.6141806, y: 0, z: 3.4259746}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -3, y: 0, z: 5.5}
-  - {x: -3, y: 0, z: 4.5}
-  - {x: -3, y: 0, z: 4}
-  - {x: -3.0761204, y: 0, z: 3.6173165}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 3}
-  - {x: -4.5, y: 0, z: 3}
-  - {x: -4, y: 0, z: 3}
-  - {x: -3.6173167, y: 0, z: 3.0761204}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 2.5}
-  - {x: -4.5, y: 0, z: 2.5}
-  - {x: -3.9570408, y: 0, z: 2.501849}
-  - {x: -3.425975, y: 0, z: 2.6141806}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -5.5, y: 0, z: 0}
-  - {x: -4.5, y: 0, z: 0}
-  - {x: -3.9570408, y: 0, z: 0}
-  - {x: -3.425975, y: 0, z: 0}
-  - {x: -2.93934, y: 0, z: 0}
-  - {x: -5.5, y: 0, z: -2.5}
-  - {x: -4.5, y: 0, z: -2.5}
-  - {x: -3.9570408, y: 0, z: -2.501849}
-  - {x: -3.425975, y: 0, z: -2.6141806}
-  - {x: -2.93934, y: 0, z: -2.9393399}
+  - {x: -3, y: 0.25, z: -5.5}
+  - {x: -3, y: 0.25, z: -4.5}
+  - {x: -3, y: 0.25, z: -4}
+  - {x: -3.0761204, y: 0.25, z: -3.6173165}
+  - {x: -3.2928934, y: 0.25, z: -3.2928932}
+  - {x: -3.25, y: 0.25, z: -5.5}
+  - {x: -3.25, y: 0.25, z: -4.5}
+  - {x: -3.2490757, y: 0.25, z: -4.0214796}
+  - {x: -3.3070903, y: 0.25, z: -3.7129874}
+  - {x: -3.46967, y: 0.25, z: -3.4696698}
+  - {x: -4.25, y: 0.25, z: -5.5}
+  - {x: -4.25, y: 0.25, z: -4.25}
+  - {x: -4.5, y: 0.25, z: -5.5}
+  - {x: -4.5, y: 0.25, z: -4.5}
   - {x: -5.5, y: 0, z: -3}
   - {x: -4.5, y: 0, z: -3}
   - {x: -4, y: 0, z: -3}
   - {x: -3.6173167, y: 0, z: -3.0761204}
   - {x: -3.2928934, y: 0, z: -3.2928932}
+  - {x: -5.5, y: 0.25, z: -3}
+  - {x: -4.5, y: 0.25, z: -3}
+  - {x: -4, y: 0.25, z: -3}
+  - {x: -3.6173167, y: 0.25, z: -3.0761204}
+  - {x: -3.2928934, y: 0.25, z: -3.2928932}
+  - {x: -5.5, y: 0.25, z: -3.25}
+  - {x: -4.5, y: 0.25, z: -3.25}
+  - {x: -4.0214796, y: 0.25, z: -3.2490754}
+  - {x: -3.7129877, y: 0.25, z: -3.3070903}
+  - {x: -3.46967, y: 0.25, z: -3.4696698}
+  - {x: -5.5, y: 0.25, z: -4.25}
+  - {x: -4.25, y: 0.25, z: -4.25}
+  - {x: -5.5, y: 0.25, z: -4.5}
+  - {x: -4.5, y: 0.25, z: -4.5}
+  - {x: 3, y: 0, z: -5.5}
+  - {x: 3, y: 0, z: -4.5}
+  - {x: 3, y: 0, z: -4}
+  - {x: 3.0761204, y: 0, z: -3.6173165}
+  - {x: 3.2928934, y: 0, z: -3.2928932}
+  - {x: 3, y: 0.25, z: -5.5}
+  - {x: 3, y: 0.25, z: -4.5}
+  - {x: 3, y: 0.25, z: -4}
+  - {x: 3.0761204, y: 0.25, z: -3.6173165}
+  - {x: 3.2928934, y: 0.25, z: -3.2928932}
+  - {x: 3.25, y: 0.25, z: -5.5}
+  - {x: 3.25, y: 0.25, z: -4.5}
+  - {x: 3.2490757, y: 0.25, z: -4.0214796}
+  - {x: 3.3070903, y: 0.25, z: -3.7129874}
+  - {x: 3.46967, y: 0.25, z: -3.4696698}
+  - {x: 4.25, y: 0.25, z: -5.5}
+  - {x: 4.25, y: 0.25, z: -4.25}
+  - {x: 4.5, y: 0.25, z: -5.5}
+  - {x: 4.5, y: 0.25, z: -4.5}
   - {x: 5.5, y: 0, z: -3}
   - {x: 4.5, y: 0, z: -3}
   - {x: 4, y: 0, z: -3}
   - {x: 3.6173167, y: 0, z: -3.0761204}
   - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 5.5, y: 0, z: -2.5}
-  - {x: 4.5, y: 0, z: -2.5}
-  - {x: 3.9570408, y: 0, z: -2.501849}
-  - {x: 3.425975, y: 0, z: -2.6141806}
-  - {x: 2.93934, y: 0, z: -2.9393399}
-  - {x: 5.5, y: 0, z: 0}
-  - {x: 4.5, y: 0, z: 0}
-  - {x: 3.9570408, y: 0, z: 0}
-  - {x: 3.425975, y: 0, z: 0}
-  - {x: 2.93934, y: 0, z: 0}
-  - {x: 5.5, y: 0, z: 2.5}
-  - {x: 4.5, y: 0, z: 2.5}
-  - {x: 3.9570408, y: 0, z: 2.501849}
-  - {x: 3.425975, y: 0, z: 2.6141806}
-  - {x: 2.93934, y: 0, z: 2.9393399}
+  - {x: 5.5, y: 0.25, z: -3}
+  - {x: 4.5, y: 0.25, z: -3}
+  - {x: 4, y: 0.25, z: -3}
+  - {x: 3.6173167, y: 0.25, z: -3.0761204}
+  - {x: 3.2928934, y: 0.25, z: -3.2928932}
+  - {x: 5.5, y: 0.25, z: -3.25}
+  - {x: 4.5, y: 0.25, z: -3.25}
+  - {x: 4.0214796, y: 0.25, z: -3.2490754}
+  - {x: 3.7129877, y: 0.25, z: -3.3070903}
+  - {x: 3.46967, y: 0.25, z: -3.4696698}
+  - {x: 5.5, y: 0.25, z: -4.25}
+  - {x: 4.25, y: 0.25, z: -4.25}
+  - {x: 5.5, y: 0.25, z: -4.5}
+  - {x: 4.5, y: 0.25, z: -4.5}
+  - {x: 3, y: 0, z: 5.5}
+  - {x: 3, y: 0, z: 4.5}
+  - {x: 3, y: 0, z: 4}
+  - {x: 3.0761204, y: 0, z: 3.6173165}
+  - {x: 3.2928934, y: 0, z: 3.2928932}
+  - {x: 3, y: 0.25, z: 5.5}
+  - {x: 3, y: 0.25, z: 4.5}
+  - {x: 3, y: 0.25, z: 4}
+  - {x: 3.0761204, y: 0.25, z: 3.6173165}
+  - {x: 3.2928934, y: 0.25, z: 3.2928932}
+  - {x: 3.25, y: 0.25, z: 5.5}
+  - {x: 3.25, y: 0.25, z: 4.5}
+  - {x: 3.2490757, y: 0.25, z: 4.0214796}
+  - {x: 3.3070903, y: 0.25, z: 3.7129874}
+  - {x: 3.46967, y: 0.25, z: 3.4696698}
+  - {x: 4.25, y: 0.25, z: 5.5}
+  - {x: 4.25, y: 0.25, z: 4.25}
+  - {x: 4.5, y: 0.25, z: 5.5}
+  - {x: 4.5, y: 0.25, z: 4.5}
   - {x: 5.5, y: 0, z: 3}
   - {x: 4.5, y: 0, z: 3}
   - {x: 4, y: 0, z: 3}
   - {x: 3.6173167, y: 0, z: 3.0761204}
   - {x: 3.2928934, y: 0, z: 3.2928932}
+  - {x: 5.5, y: 0.25, z: 3}
+  - {x: 4.5, y: 0.25, z: 3}
+  - {x: 4, y: 0.25, z: 3}
+  - {x: 3.6173167, y: 0.25, z: 3.0761204}
+  - {x: 3.2928934, y: 0.25, z: 3.2928932}
+  - {x: 5.5, y: 0.25, z: 3.25}
+  - {x: 4.5, y: 0.25, z: 3.25}
+  - {x: 4.0214796, y: 0.25, z: 3.2490754}
+  - {x: 3.7129877, y: 0.25, z: 3.3070903}
+  - {x: 3.46967, y: 0.25, z: 3.4696698}
+  - {x: 5.5, y: 0.25, z: 4.25}
+  - {x: 4.25, y: 0.25, z: 4.25}
+  - {x: 5.5, y: 0.25, z: 4.5}
+  - {x: 4.5, y: 0.25, z: 4.5}
+  - {x: -3, y: 0, z: 5.5}
+  - {x: -3, y: 0, z: 4.5}
+  - {x: -3, y: 0, z: 4}
+  - {x: -3.0761204, y: 0, z: 3.6173165}
+  - {x: -3.2928934, y: 0, z: 3.2928932}
+  - {x: -3, y: 0.25, z: 5.5}
+  - {x: -3, y: 0.25, z: 4.5}
+  - {x: -3, y: 0.25, z: 4}
+  - {x: -3.0761204, y: 0.25, z: 3.6173165}
+  - {x: -3.2928934, y: 0.25, z: 3.2928932}
+  - {x: -3.25, y: 0.25, z: 5.5}
+  - {x: -3.25, y: 0.25, z: 4.5}
+  - {x: -3.2490757, y: 0.25, z: 4.0214796}
+  - {x: -3.3070903, y: 0.25, z: 3.7129874}
+  - {x: -3.46967, y: 0.25, z: 3.4696698}
+  - {x: -4.25, y: 0.25, z: 5.5}
+  - {x: -4.25, y: 0.25, z: 4.25}
+  - {x: -4.5, y: 0.25, z: 5.5}
+  - {x: -4.5, y: 0.25, z: 4.5}
+  - {x: -5.5, y: 0, z: 3}
+  - {x: -4.5, y: 0, z: 3}
+  - {x: -4, y: 0, z: 3}
+  - {x: -3.6173167, y: 0, z: 3.0761204}
+  - {x: -3.2928934, y: 0, z: 3.2928932}
+  - {x: -5.5, y: 0.25, z: 3}
+  - {x: -4.5, y: 0.25, z: 3}
+  - {x: -4, y: 0.25, z: 3}
+  - {x: -3.6173167, y: 0.25, z: 3.0761204}
+  - {x: -3.2928934, y: 0.25, z: 3.2928932}
+  - {x: -5.5, y: 0.25, z: 3.25}
+  - {x: -4.5, y: 0.25, z: 3.25}
+  - {x: -4.0214796, y: 0.25, z: 3.2490754}
+  - {x: -3.7129877, y: 0.25, z: 3.3070903}
+  - {x: -3.46967, y: 0.25, z: 3.4696698}
+  - {x: -5.5, y: 0.25, z: 4.25}
+  - {x: -4.25, y: 0.25, z: 4.25}
+  - {x: -5.5, y: 0.25, z: 4.5}
+  - {x: -4.5, y: 0.25, z: 4.5}
+  fullMeshVecs: []
   tmpMeshVecs:
   - {x: 0, y: 0, z: 0}
   - {x: -3, y: 0, z: -5.5}
@@ -1939,210 +2019,160 @@ MonoBehaviour:
   - {x: 4, y: 0, z: 3}
   - {x: 3.6173167, y: 0, z: 3.0761204}
   - {x: 3.2928934, y: 0, z: 3.2928932}
-  tmpFullMeshVecs:
-  - {x: 0, y: 0, z: 0}
   - {x: -3, y: 0, z: -5.5}
   - {x: -3, y: 0, z: -4.5}
   - {x: -3, y: 0, z: -4}
   - {x: -3.0761204, y: 0, z: -3.6173165}
   - {x: -3.2928934, y: 0, z: -3.2928932}
-  - {x: -2.5, y: 0, z: -5.5}
-  - {x: -2.5, y: 0, z: -4.5}
-  - {x: -2.501849, y: 0, z: -3.9570408}
-  - {x: -2.6141806, y: 0, z: -3.4259746}
-  - {x: -2.93934, y: 0, z: -2.9393399}
-  - {x: 0, y: 0, z: -5.5}
-  - {x: 0, y: 0, z: -4.5}
-  - {x: 0, y: 0, z: -3.9570408}
-  - {x: 0, y: 0, z: -3.4259746}
-  - {x: 0, y: 0, z: -2.9393399}
-  - {x: 2.5, y: 0, z: -5.5}
-  - {x: 2.5, y: 0, z: -4.5}
-  - {x: 2.501849, y: 0, z: -3.9570408}
-  - {x: 2.6141806, y: 0, z: -3.4259746}
-  - {x: 2.93934, y: 0, z: -2.9393399}
-  - {x: 3, y: 0, z: -5.5}
-  - {x: 3, y: 0, z: -4.5}
-  - {x: 3, y: 0, z: -4}
-  - {x: 3.0761204, y: 0, z: -3.6173165}
-  - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 3, y: 0, z: 5.5}
-  - {x: 3, y: 0, z: 4.5}
-  - {x: 3, y: 0, z: 4}
-  - {x: 3.0761204, y: 0, z: 3.6173165}
-  - {x: 3.2928934, y: 0, z: 3.2928932}
-  - {x: 2.5, y: 0, z: 5.5}
-  - {x: 2.5, y: 0, z: 4.5}
-  - {x: 2.501849, y: 0, z: 3.9570408}
-  - {x: 2.6141806, y: 0, z: 3.4259746}
-  - {x: 2.93934, y: 0, z: 2.9393399}
-  - {x: 0, y: 0, z: 5.5}
-  - {x: 0, y: 0, z: 4.5}
-  - {x: 0, y: 0, z: 3.9570408}
-  - {x: 0, y: 0, z: 3.4259746}
-  - {x: 0, y: 0, z: 2.9393399}
-  - {x: -2.5, y: 0, z: 5.5}
-  - {x: -2.5, y: 0, z: 4.5}
-  - {x: -2.501849, y: 0, z: 3.9570408}
-  - {x: -2.6141806, y: 0, z: 3.4259746}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -3, y: 0, z: 5.5}
-  - {x: -3, y: 0, z: 4.5}
-  - {x: -3, y: 0, z: 4}
-  - {x: -3.0761204, y: 0, z: 3.6173165}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 3}
-  - {x: -4.5, y: 0, z: 3}
-  - {x: -4, y: 0, z: 3}
-  - {x: -3.6173167, y: 0, z: 3.0761204}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 2.5}
-  - {x: -4.5, y: 0, z: 2.5}
-  - {x: -3.9570408, y: 0, z: 2.501849}
-  - {x: -3.425975, y: 0, z: 2.6141806}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -5.5, y: 0, z: 0}
-  - {x: -4.5, y: 0, z: 0}
-  - {x: -3.9570408, y: 0, z: 0}
-  - {x: -3.425975, y: 0, z: 0}
-  - {x: -2.93934, y: 0, z: 0}
-  - {x: -5.5, y: 0, z: -2.5}
-  - {x: -4.5, y: 0, z: -2.5}
-  - {x: -3.9570408, y: 0, z: -2.501849}
-  - {x: -3.425975, y: 0, z: -2.6141806}
-  - {x: -2.93934, y: 0, z: -2.9393399}
+  - {x: -3, y: 0.25, z: -5.5}
+  - {x: -3, y: 0.25, z: -4.5}
+  - {x: -3, y: 0.25, z: -4}
+  - {x: -3.0761204, y: 0.25, z: -3.6173165}
+  - {x: -3.2928934, y: 0.25, z: -3.2928932}
+  - {x: -3.25, y: 0.25, z: -5.5}
+  - {x: -3.25, y: 0.25, z: -4.5}
+  - {x: -3.2490757, y: 0.25, z: -4.0214796}
+  - {x: -3.3070903, y: 0.25, z: -3.7129874}
+  - {x: -3.46967, y: 0.25, z: -3.4696698}
+  - {x: -4.25, y: 0.25, z: -5.5}
+  - {x: -4.25, y: 0.25, z: -4.25}
+  - {x: -4.5, y: 0.25, z: -5.5}
+  - {x: -4.5, y: 0.25, z: -4.5}
   - {x: -5.5, y: 0, z: -3}
   - {x: -4.5, y: 0, z: -3}
   - {x: -4, y: 0, z: -3}
   - {x: -3.6173167, y: 0, z: -3.0761204}
   - {x: -3.2928934, y: 0, z: -3.2928932}
-  - {x: 5.5, y: 0, z: -3}
-  - {x: 4.5, y: 0, z: -3}
-  - {x: 4, y: 0, z: -3}
-  - {x: 3.6173167, y: 0, z: -3.0761204}
-  - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 5.5, y: 0, z: -2.5}
-  - {x: 4.5, y: 0, z: -2.5}
-  - {x: 3.9570408, y: 0, z: -2.501849}
-  - {x: 3.425975, y: 0, z: -2.6141806}
-  - {x: 2.93934, y: 0, z: -2.9393399}
-  - {x: 5.5, y: 0, z: 0}
-  - {x: 4.5, y: 0, z: 0}
-  - {x: 3.9570408, y: 0, z: 0}
-  - {x: 3.425975, y: 0, z: 0}
-  - {x: 2.93934, y: 0, z: 0}
-  - {x: 5.5, y: 0, z: 2.5}
-  - {x: 4.5, y: 0, z: 2.5}
-  - {x: 3.9570408, y: 0, z: 2.501849}
-  - {x: 3.425975, y: 0, z: 2.6141806}
-  - {x: 2.93934, y: 0, z: 2.9393399}
-  - {x: 5.5, y: 0, z: 3}
-  - {x: 4.5, y: 0, z: 3}
-  - {x: 4, y: 0, z: 3}
-  - {x: 3.6173167, y: 0, z: 3.0761204}
-  - {x: 3.2928934, y: 0, z: 3.2928932}
-  tCrossingTmpFullMeshVecs:
-  - {x: 0, y: 0, z: 0}
-  - {x: -3, y: 0, z: -5.5}
-  - {x: -3, y: 0, z: -4.5}
-  - {x: -3, y: 0, z: -4}
-  - {x: -3.0761204, y: 0, z: -3.6173165}
-  - {x: -3.2928934, y: 0, z: -3.2928932}
-  - {x: -2.5, y: 0, z: -5.5}
-  - {x: -2.5, y: 0, z: -4.5}
-  - {x: -2.501849, y: 0, z: -3.9570408}
-  - {x: -2.6141806, y: 0, z: -3.4259746}
-  - {x: -2.93934, y: 0, z: -2.9393399}
-  - {x: 0, y: 0, z: -5.5}
-  - {x: 0, y: 0, z: -4.5}
-  - {x: 0, y: 0, z: -3.9570408}
-  - {x: 0, y: 0, z: -3.4259746}
-  - {x: 0, y: 0, z: -2.9393399}
-  - {x: 2.5, y: 0, z: -5.5}
-  - {x: 2.5, y: 0, z: -4.5}
-  - {x: 2.501849, y: 0, z: -3.9570408}
-  - {x: 2.6141806, y: 0, z: -3.4259746}
-  - {x: 2.93934, y: 0, z: -2.9393399}
+  - {x: -5.5, y: 0.25, z: -3}
+  - {x: -4.5, y: 0.25, z: -3}
+  - {x: -4, y: 0.25, z: -3}
+  - {x: -3.6173167, y: 0.25, z: -3.0761204}
+  - {x: -3.2928934, y: 0.25, z: -3.2928932}
+  - {x: -5.5, y: 0.25, z: -3.25}
+  - {x: -4.5, y: 0.25, z: -3.25}
+  - {x: -4.0214796, y: 0.25, z: -3.2490754}
+  - {x: -3.7129877, y: 0.25, z: -3.3070903}
+  - {x: -3.46967, y: 0.25, z: -3.4696698}
+  - {x: -5.5, y: 0.25, z: -4.25}
+  - {x: -4.25, y: 0.25, z: -4.25}
+  - {x: -5.5, y: 0.25, z: -4.5}
+  - {x: -4.5, y: 0.25, z: -4.5}
   - {x: 3, y: 0, z: -5.5}
   - {x: 3, y: 0, z: -4.5}
   - {x: 3, y: 0, z: -4}
   - {x: 3.0761204, y: 0, z: -3.6173165}
   - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 3, y: 0, z: 5.5}
-  - {x: 3, y: 0, z: 4.5}
-  - {x: 3, y: 0, z: 4}
-  - {x: 3.0761204, y: 0, z: 3.6173165}
-  - {x: 3.2928934, y: 0, z: 3.2928932}
-  - {x: 2.5, y: 0, z: 5.5}
-  - {x: 2.5, y: 0, z: 4.5}
-  - {x: 2.501849, y: 0, z: 3.9570408}
-  - {x: 2.6141806, y: 0, z: 3.4259746}
-  - {x: 2.93934, y: 0, z: 2.9393399}
-  - {x: 0, y: 0, z: 5.5}
-  - {x: 0, y: 0, z: 4.5}
-  - {x: 0, y: 0, z: 3.9570408}
-  - {x: 0, y: 0, z: 3.4259746}
-  - {x: 0, y: 0, z: 2.9393399}
-  - {x: -2.5, y: 0, z: 5.5}
-  - {x: -2.5, y: 0, z: 4.5}
-  - {x: -2.501849, y: 0, z: 3.9570408}
-  - {x: -2.6141806, y: 0, z: 3.4259746}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -3, y: 0, z: 5.5}
-  - {x: -3, y: 0, z: 4.5}
-  - {x: -3, y: 0, z: 4}
-  - {x: -3.0761204, y: 0, z: 3.6173165}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 3}
-  - {x: -4.5, y: 0, z: 3}
-  - {x: -4, y: 0, z: 3}
-  - {x: -3.6173167, y: 0, z: 3.0761204}
-  - {x: -3.2928934, y: 0, z: 3.2928932}
-  - {x: -5.5, y: 0, z: 2.5}
-  - {x: -4.5, y: 0, z: 2.5}
-  - {x: -3.9570408, y: 0, z: 2.501849}
-  - {x: -3.425975, y: 0, z: 2.6141806}
-  - {x: -2.93934, y: 0, z: 2.9393399}
-  - {x: -5.5, y: 0, z: 0}
-  - {x: -4.5, y: 0, z: 0}
-  - {x: -3.9570408, y: 0, z: 0}
-  - {x: -3.425975, y: 0, z: 0}
-  - {x: -2.93934, y: 0, z: 0}
-  - {x: -5.5, y: 0, z: -2.5}
-  - {x: -4.5, y: 0, z: -2.5}
-  - {x: -3.9570408, y: 0, z: -2.501849}
-  - {x: -3.425975, y: 0, z: -2.6141806}
-  - {x: -2.93934, y: 0, z: -2.9393399}
-  - {x: -5.5, y: 0, z: -3}
-  - {x: -4.5, y: 0, z: -3}
-  - {x: -4, y: 0, z: -3}
-  - {x: -3.6173167, y: 0, z: -3.0761204}
-  - {x: -3.2928934, y: 0, z: -3.2928932}
+  - {x: 3, y: 0.25, z: -5.5}
+  - {x: 3, y: 0.25, z: -4.5}
+  - {x: 3, y: 0.25, z: -4}
+  - {x: 3.0761204, y: 0.25, z: -3.6173165}
+  - {x: 3.2928934, y: 0.25, z: -3.2928932}
+  - {x: 3.25, y: 0.25, z: -5.5}
+  - {x: 3.25, y: 0.25, z: -4.5}
+  - {x: 3.2490757, y: 0.25, z: -4.0214796}
+  - {x: 3.3070903, y: 0.25, z: -3.7129874}
+  - {x: 3.46967, y: 0.25, z: -3.4696698}
+  - {x: 4.25, y: 0.25, z: -5.5}
+  - {x: 4.25, y: 0.25, z: -4.25}
+  - {x: 4.5, y: 0.25, z: -5.5}
+  - {x: 4.5, y: 0.25, z: -4.5}
   - {x: 5.5, y: 0, z: -3}
   - {x: 4.5, y: 0, z: -3}
   - {x: 4, y: 0, z: -3}
   - {x: 3.6173167, y: 0, z: -3.0761204}
   - {x: 3.2928934, y: 0, z: -3.2928932}
-  - {x: 5.5, y: 0, z: -2.5}
-  - {x: 4.5, y: 0, z: -2.5}
-  - {x: 3.9570408, y: 0, z: -2.501849}
-  - {x: 3.425975, y: 0, z: -2.6141806}
-  - {x: 2.93934, y: 0, z: -2.9393399}
-  - {x: 5.5, y: 0, z: 0}
-  - {x: 4.5, y: 0, z: 0}
-  - {x: 3.9570408, y: 0, z: 0}
-  - {x: 3.425975, y: 0, z: 0}
-  - {x: 2.93934, y: 0, z: 0}
-  - {x: 5.5, y: 0, z: 2.5}
-  - {x: 4.5, y: 0, z: 2.5}
-  - {x: 3.9570408, y: 0, z: 2.501849}
-  - {x: 3.425975, y: 0, z: 2.6141806}
-  - {x: 2.93934, y: 0, z: 2.9393399}
+  - {x: 5.5, y: 0.25, z: -3}
+  - {x: 4.5, y: 0.25, z: -3}
+  - {x: 4, y: 0.25, z: -3}
+  - {x: 3.6173167, y: 0.25, z: -3.0761204}
+  - {x: 3.2928934, y: 0.25, z: -3.2928932}
+  - {x: 5.5, y: 0.25, z: -3.25}
+  - {x: 4.5, y: 0.25, z: -3.25}
+  - {x: 4.0214796, y: 0.25, z: -3.2490754}
+  - {x: 3.7129877, y: 0.25, z: -3.3070903}
+  - {x: 3.46967, y: 0.25, z: -3.4696698}
+  - {x: 5.5, y: 0.25, z: -4.25}
+  - {x: 4.25, y: 0.25, z: -4.25}
+  - {x: 5.5, y: 0.25, z: -4.5}
+  - {x: 4.5, y: 0.25, z: -4.5}
+  - {x: 3, y: 0, z: 5.5}
+  - {x: 3, y: 0, z: 4.5}
+  - {x: 3, y: 0, z: 4}
+  - {x: 3.0761204, y: 0, z: 3.6173165}
+  - {x: 3.2928934, y: 0, z: 3.2928932}
+  - {x: 3, y: 0.25, z: 5.5}
+  - {x: 3, y: 0.25, z: 4.5}
+  - {x: 3, y: 0.25, z: 4}
+  - {x: 3.0761204, y: 0.25, z: 3.6173165}
+  - {x: 3.2928934, y: 0.25, z: 3.2928932}
+  - {x: 3.25, y: 0.25, z: 5.5}
+  - {x: 3.25, y: 0.25, z: 4.5}
+  - {x: 3.2490757, y: 0.25, z: 4.0214796}
+  - {x: 3.3070903, y: 0.25, z: 3.7129874}
+  - {x: 3.46967, y: 0.25, z: 3.4696698}
+  - {x: 4.25, y: 0.25, z: 5.5}
+  - {x: 4.25, y: 0.25, z: 4.25}
+  - {x: 4.5, y: 0.25, z: 5.5}
+  - {x: 4.5, y: 0.25, z: 4.5}
   - {x: 5.5, y: 0, z: 3}
   - {x: 4.5, y: 0, z: 3}
   - {x: 4, y: 0, z: 3}
   - {x: 3.6173167, y: 0, z: 3.0761204}
   - {x: 3.2928934, y: 0, z: 3.2928932}
+  - {x: 5.5, y: 0.25, z: 3}
+  - {x: 4.5, y: 0.25, z: 3}
+  - {x: 4, y: 0.25, z: 3}
+  - {x: 3.6173167, y: 0.25, z: 3.0761204}
+  - {x: 3.2928934, y: 0.25, z: 3.2928932}
+  - {x: 5.5, y: 0.25, z: 3.25}
+  - {x: 4.5, y: 0.25, z: 3.25}
+  - {x: 4.0214796, y: 0.25, z: 3.2490754}
+  - {x: 3.7129877, y: 0.25, z: 3.3070903}
+  - {x: 3.46967, y: 0.25, z: 3.4696698}
+  - {x: 5.5, y: 0.25, z: 4.25}
+  - {x: 4.25, y: 0.25, z: 4.25}
+  - {x: 5.5, y: 0.25, z: 4.5}
+  - {x: 4.5, y: 0.25, z: 4.5}
+  - {x: -3, y: 0, z: 5.5}
+  - {x: -3, y: 0, z: 4.5}
+  - {x: -3, y: 0, z: 4}
+  - {x: -3.0761204, y: 0, z: 3.6173165}
+  - {x: -3.2928934, y: 0, z: 3.2928932}
+  - {x: -3, y: 0.25, z: 5.5}
+  - {x: -3, y: 0.25, z: 4.5}
+  - {x: -3, y: 0.25, z: 4}
+  - {x: -3.0761204, y: 0.25, z: 3.6173165}
+  - {x: -3.2928934, y: 0.25, z: 3.2928932}
+  - {x: -3.25, y: 0.25, z: 5.5}
+  - {x: -3.25, y: 0.25, z: 4.5}
+  - {x: -3.2490757, y: 0.25, z: 4.0214796}
+  - {x: -3.3070903, y: 0.25, z: 3.7129874}
+  - {x: -3.46967, y: 0.25, z: 3.4696698}
+  - {x: -4.25, y: 0.25, z: 5.5}
+  - {x: -4.25, y: 0.25, z: 4.25}
+  - {x: -4.5, y: 0.25, z: 5.5}
+  - {x: -4.5, y: 0.25, z: 4.5}
+  - {x: -5.5, y: 0, z: 3}
+  - {x: -4.5, y: 0, z: 3}
+  - {x: -4, y: 0, z: 3}
+  - {x: -3.6173167, y: 0, z: 3.0761204}
+  - {x: -3.2928934, y: 0, z: 3.2928932}
+  - {x: -5.5, y: 0.25, z: 3}
+  - {x: -4.5, y: 0.25, z: 3}
+  - {x: -4, y: 0.25, z: 3}
+  - {x: -3.6173167, y: 0.25, z: 3.0761204}
+  - {x: -3.2928934, y: 0.25, z: 3.2928932}
+  - {x: -5.5, y: 0.25, z: 3.25}
+  - {x: -4.5, y: 0.25, z: 3.25}
+  - {x: -4.0214796, y: 0.25, z: 3.2490754}
+  - {x: -3.7129877, y: 0.25, z: 3.3070903}
+  - {x: -3.46967, y: 0.25, z: 3.4696698}
+  - {x: -5.5, y: 0.25, z: 4.25}
+  - {x: -4.25, y: 0.25, z: 4.25}
+  - {x: -5.5, y: 0.25, z: 4.5}
+  - {x: -4.5, y: 0.25, z: 4.5}
+  tmpFullMeshVecs: []
+  tCrossingTmpFullMeshVecs: []
   outerVecInts: 
   surfaceVecs: []
   surfaceVecType: 
@@ -2165,7 +2195,7 @@ MonoBehaviour:
   - Connection 3
   deformTerrain: 1
   isRoundabout: 0
-  isERCrossing: 1
+  isERCrossing: 0
   isYConnector: 0
   isIConnector: 0
   isFlexConnector: 0
@@ -2181,7 +2211,7 @@ MonoBehaviour:
   recalculateNormals: 0
   planarUVs: 0
   planarTiling: 1
-  lastVecRoadIndex: 100
+  lastVecRoadIndex: 0
   isSceneObject: 0
   surfaceObject: {fileID: 1719437885002130}
   surfaceMeshVecs:
@@ -2203,25 +2233,8 @@ MonoBehaviour:
   - {x: 10.252136, y: 0, z: 10.252129}
   - {x: 10.252136, y: 0, z: -10.252129}
   tmpSurfaceMeshVecs: []
-  tmpSurfaceVecsTCrossings:
-  - {x: 0, y: 0, z: 0}
-  - {x: 7.4296875, y: -0.02, z: -7.4296875}
-  - {x: -7.4296875, y: -0.02, z: -7.4296875}
-  - {x: -7.4296875, y: -0.02, z: -7.4296875}
-  - {x: -7.4296875, y: -0.02, z: 7.4296875}
-  - {x: -7.4296875, y: -0.02, z: 7.4296875}
-  - {x: 7.4296875, y: -0.02, z: 7.4296875}
-  - {x: 7.4296875, y: -0.02, z: 7.4296875}
-  - {x: 7.4296875, y: -0.02, z: -7.4296875}
-  - {x: 10.252136, y: 0, z: -10.252129}
-  - {x: -10.252136, y: 0, z: -10.252129}
-  - {x: -10.252136, y: 0, z: -10.252129}
-  - {x: -10.252136, y: 0, z: 10.252129}
-  - {x: -10.252136, y: 0, z: 10.252129}
-  - {x: 10.252136, y: 0, z: 10.252129}
-  - {x: 10.252136, y: 0, z: 10.252129}
-  - {x: 10.252136, y: 0, z: -10.252129}
-  surfaceInts: 05000000010000001900000015000000320000002e0000001e0000001a00000037000000330000004b00000047000000500000004c0000006400000060000000
+  tmpSurfaceVecsTCrossings: []
+  surfaceInts: 77000000760000009d0000009c000000e9000000e8000000c3000000c2000000fc000000fb0000008a00000089000000b0000000af000000d6000000d5000000
   leftBottomCorner: {x: 0, y: 0, z: 0}
   leftTopCorner: {x: 0, y: 0, z: 0}
   rightBottomCorner: {x: 0, y: 0, z: 0}
@@ -2231,18 +2244,18 @@ MonoBehaviour:
   tCrossingLeftRight: 1
   tMainRoadWidth: 0
   tConnectionRoadWidth: 0
-  bottomLeftSidewalkWidth: 1.5
-  bottomLeftSidewalkOuterOffset: 1.25
-  bottomLeftSidewalkCurbDepth: 0.25
-  bottomRightSidewalkWidth: 1.5
-  bottomRightSidewalkOuterOffset: 1.25
-  bottomRightSidewalkCurbDepth: 0.25
-  topLeftSidewalkWidth: 1.5
-  topLeftSidewalkOuterOffset: 1.25
-  topLeftSidewalkCurbDepth: 0.25
-  topRightSidewalkWidth: 1.5
-  topRightSidewalkOuterOffset: 1.25
-  topRightSidewalkCurbDepth: 0.25
+  bottomLeftSidewalkWidth: 0
+  bottomLeftSidewalkOuterOffset: 0
+  bottomLeftSidewalkCurbDepth: 0
+  bottomRightSidewalkWidth: 0
+  bottomRightSidewalkOuterOffset: 0
+  bottomRightSidewalkCurbDepth: 0
+  topLeftSidewalkWidth: 0
+  topLeftSidewalkOuterOffset: 0
+  topLeftSidewalkCurbDepth: 0
+  topRightSidewalkWidth: 0
+  topRightSidewalkOuterOffset: 0
+  topRightSidewalkCurbDepth: 0
   testVec: {x: 0, y: 0, z: 0}
   surfaceSurroundingInts: 090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
   rotationPriorityElement: -1
@@ -2287,7 +2300,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642513071438882}
-  m_Mesh: {fileID: 4300000, guid: 8816884d18867c742babeccb88a8a454, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad09b174db375545ac5024bd95a1cf6, type: 2}
 --- !u!23 &23821981462931732
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2302,10 +2315,13 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 3c555588afad81d428ad1704d5d015a7, type: 2}
+  - {fileID: 2100000, guid: d74dc327ca3fad8408eeeaf8ad54a110, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2313,11 +2329,12 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2325,6 +2342,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &64424354639459620
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2335,9 +2353,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &1719437885002130
 GameObject:
@@ -2407,6 +2425,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2418,10 +2438,11 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
+  m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -2430,6 +2451,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &64480550856458174
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2440,7 +2462,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
