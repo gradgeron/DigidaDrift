@@ -983,13 +983,17 @@ public class RCC_CarControllerV3 : RCC_Core {
 		if (speed > 60 && ((driftingNow && driftAngle >= .2) || (driftingNow && driftAngle <= -.2)))
         {
 			DriftPoints.driftPointHolder += 0.1f * driftMultiplier;
-			Debug.Log("we're drifting");
-        }
-		if ((speed >= 40 && speed <= 60) && (driftAngle >= .5 || driftAngle <= -.5))
-        {
+			//Debug.Log("we're drifting");
+			DriftPoints.isShaking = true;
+        } else if ((speed >= 40 && speed <= 60) && (driftAngle >= .5 || driftAngle <= -.5))
+		{
 			DriftPoints.driftPointHolder += 0.1f;
-			Debug.Log("we're drifting");
-		}
+			//Debug.Log("we're drifting");
+			DriftPoints.isShaking = true;
+		} else
+        {
+			DriftPoints.isShaking = false;
+        }
 
 		if (driftAngle >= .35 || driftAngle <= -.35)
         {
