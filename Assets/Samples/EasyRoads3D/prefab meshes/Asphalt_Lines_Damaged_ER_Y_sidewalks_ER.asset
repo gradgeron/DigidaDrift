@@ -6,7 +6,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Asphalt_Lines_Damaged_ER_Y_Sidewalks_ER
+  m_Name: Asphalt_Lines_Damaged_ER_Y_sidewalks_ER
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
