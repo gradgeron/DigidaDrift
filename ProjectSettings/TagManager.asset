@@ -9,6 +9,7 @@ TagManager:
   - LB Hail Particles
   - LB Snow Particles
   - Obstacle
+  - Smoke
   layers:
   - Default
   - TransparentFX

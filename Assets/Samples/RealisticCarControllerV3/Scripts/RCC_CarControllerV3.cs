@@ -38,7 +38,9 @@ public class RCC_CarControllerV3 : RCC_Core {
 	#endregion
 
 	public bool canControl = true;					// Enables / Disables controlling the vehicle. If enabled, can receive all inputs from InputManager.
-	public bool isGrounded = false;				// Is vehicle grounded completely now?
+	public bool isGrounded = false;             // Is vehicle grounded completely now?
+
+	
 
 	#region Wheels
 	// Wheel models of the vehicle.
@@ -89,9 +91,9 @@ public class RCC_CarControllerV3 : RCC_Core {
 	#endregion
 
 	#region AI
-	public bool externalController = false;		// AI Controller.
+	public bool externalController = false;     // AI Controller.
 	#endregion
-	 
+
 	#region Configurations
 	public Rigidbody rigid;														// Rigidbody.
 	public Transform COM;													// Center of mass.
@@ -980,12 +982,12 @@ public class RCC_CarControllerV3 : RCC_Core {
 		launched = Mathf.Clamp01 (launched);
 
 		
-		if (speed > 60 && ((driftingNow && driftAngle >= .2) || (driftingNow && driftAngle <= -.2)))
+		if (speed > 60 && ((driftingNow && driftAngle >= .2) || (driftingNow && driftAngle <= -.2)) && isGrounded)
         {
 			DriftPoints.driftPointHolder += 0.1f * driftMultiplier;
 			//Debug.Log("we're drifting");
 			DriftPoints.isShaking = true;
-        } else if ((speed >= 40 && speed <= 60) && (driftAngle >= .5 || driftAngle <= -.5))
+        } else if ((speed >= 40 && speed <= 60) && (driftAngle >= .5 || driftAngle <= -.5) && isGrounded)
 		{
 			DriftPoints.driftPointHolder += 0.1f;
 			//Debug.Log("we're drifting");
@@ -994,6 +996,14 @@ public class RCC_CarControllerV3 : RCC_Core {
         {
 			DriftPoints.isShaking = false;
         }
+		
+		if (driftingNow && isGrounded)
+        {
+			DriftPoints.spawnParticles = true;
+        } else
+        {
+			DriftPoints.spawnParticles = false;
+		}
 
 		if (driftAngle >= .35 || driftAngle <= -.35)
         {
